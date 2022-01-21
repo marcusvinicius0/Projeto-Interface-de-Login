@@ -4,7 +4,7 @@
 
 
 
-> Projeto Interface de Login padrão com cores e design modificados; 
+> Projeto Interface de Login padrão com cores e design modificados;  <br>
 > ◾ Feito em grupo com propósitos de networking e colocar projetos reais em prática;
 
 
