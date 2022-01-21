@@ -1,0 +1,114 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(./assets/roadway.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
+    .form {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        width: 25vw;
+        height: 75vh;
+        background-color: whitesmoke;
+        margin-top: 4vw;
+        border-radius: 13px;
+        padding: 33px;
+    }
+    
+    h1 {
+        color: #3a7961;
+    }
+    
+    hr {
+        width: 20vw;
+        margin-top: 0.5vw;
+        margin-bottom: 2.7vw;
+        border: 1px solid #3a7961;
+    }
+    
+    input {
+        display: block;
+        margin-bottom: 1vw;
+        margin-top: 0.5vw;
+        padding: 3px;
+        width: 20vw;
+        height: 4vh;
+        border: none;
+        outline: none;
+        /* tira a borda feia do lado */
+    }
+    
+    button {
+        display: block;
+        border-radius: 17px;
+        border: none;
+        background-color: #3a7961;
+        cursor: pointer;
+        color: white;
+        width: 20vw;
+        height: 5.5vh;
+        margin-top: 1vw;
+        text-decoration: none;
+        margin-bottom: 0.8vw;
+    }
+    
+    button:hover {
+        background-color: #2f5e4c;
+    }
+    
+    .recoverPassword {
+        text-decoration: none;
+        margin-left: 10vw;
+        color: #3a7961;
+        font-size: 14px;
+    }
+    
+    .redesocial {
+        text-align: center;
+        margin-top: 1vw;
+    }
+    
+    .fb {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 1vw;
+    }
+    
+    .in {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .criar-conta {
+        text-align: center;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    
+    .registrar-link {
+        margin-top: 4vw;
+        margin-left: 7.5vw;
+        text-decoration: none;
+        color: #3a7961;
+    }
